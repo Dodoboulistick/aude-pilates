@@ -10,20 +10,37 @@
     color: var(--gold);
 }
 
+.lightgray{
+    color: var(--lightgray);
+}
+
 .green{
     color: var(--green);
 }
 
-.dark-green{
+.darkgreen{
     color: var(--dark-green);
 }
+
+
+
+
 
 /*  GENERAL  */
 html, body{
     margin: 0;
     padding: 0;
     font-family: Montserrat;
-    color: var(--darkgray);
+    color: var(--darkgreen);
+    background: var(--lightgray);
+}
+
+img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+h1{
+    font-weight: 800;
 }
 
 hr{
@@ -31,8 +48,14 @@ hr{
     opacity: 1;
 }
 
+
+
+
+
+/*  NAVBAR  */
 nav ul li a{
     font-weight: 600;
+    color: var(--darkgreen) !important;
 }
 
 nav a:hover{
@@ -47,15 +70,29 @@ nav a.active{
     border-bottom: 2px solid var(--gold);
 }
 
-h1.logo-title{
-    font-weight: 800;
-}
+
+
 
 /*  INDEX  */
 header{
     height: 90vh;
+    margin-bottom: 100px;
 } 
 
-header img{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+#about p{
+    font-size: 22px;
+}
+
+#method{
+    background-color: var(--green);
+    padding-bottom: 30px;
+}
+
+#method p{
+    font-size: 22px;
+    padding-top: 40px;
+}
+
+#call-to-action p, #call-to-action i{
+    font-size: 30px;
 }
