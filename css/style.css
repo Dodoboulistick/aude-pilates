@@ -1,6 +1,6 @@
 /*  COLOR AND VARIABLES  */
 :root {
-    --gold: #cda34f;
+    --gold: #d8a628;
     --lightgray : #e9e7da;
     --green : #636b46;
     --darkgreen : #373f27;
@@ -27,15 +27,29 @@
 
 
 /*  GENERAL  */
-html, body{
-    margin: 0;
-    padding: 0;
-    font-family: Montserrat;
-    color: var(--darkgreen);
-    background: var(--lightgray);
+@font-face {
+    font-family: "Now";
+    src: url("../assets/fonts/Now-Regular.otf");
 }
 
-img{
+@font-face {
+    font-family: "Nickainley";
+    src: url("../assets/fonts/Nickainley-Normal.otf");
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: "Nickainley" !important;
+    background-color: var(--lightgray);
+}
+
+body{
+    color: var(--darkgreen);
+    background: url("/assets/bg-leaf2.png")
+}
+
+.shadow{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
@@ -79,6 +93,15 @@ header{
     margin-bottom: 100px;
 } 
 
+header h1{
+    font-size: 48px;
+}
+
+#about{
+    margin-bottom: 150px;
+}
+
+
 #about p{
     font-size: 22px;
 }
@@ -93,6 +116,53 @@ header{
     padding-top: 40px;
 }
 
-#call-to-action p, #call-to-action i{
+#call-to-action{
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+#call-to-action p{
+    font-size: 33px;
+}
+
+#call-to-action i{
+    font-size: 50px;
+}
+
+#pilates{
+    background-color: var(--darkgreen);
+}
+
+#pilates p{
+    color: var(--lightgray);
+}
+
+
+
+
+
+/*  CONTACT  */
+#contact h1{
+    font-size: 50px;
+}
+
+#contact #infos{
     font-size: 30px;
+    font-weight: 600;
+}
+
+#contact #infos i{
+    font-size: 43px;
+}
+
+#contact #infos a{
+    color: var(--darkgreen);
+    text-decoration: none;
+}
+
+#contact .pills:hover{
+    background-color: var(--darkgreen);
+    transition: 0.2s;
+    border: none !important;
+    color: var(--lightgray) !important;
 }
