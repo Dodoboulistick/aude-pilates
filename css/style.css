@@ -101,6 +101,9 @@ header h1{
     margin-bottom: 150px;
 }
 
+#about .about-wrapper{
+    background-color: var(--lightgray);
+}
 
 #about p{
     font-size: 22px;
@@ -138,6 +141,23 @@ header h1{
 }
 
 
+/*  PILATES  */
+#pilates-body .pilates-body-wrapper{
+    background-color: var(--lightgray);
+}
+
+#pilates-infos i {
+    font-size: 38px;
+}
+
+#pilates-infos .info-bubles{
+    background-color: var(--lightgray);
+    border-radius: 5px;
+    border: 2px solid var(--darkgreen);
+    height: 150px;
+}
+
+
 
 
 
@@ -158,6 +178,10 @@ header h1{
 #contact #infos a{
     color: var(--darkgreen);
     text-decoration: none;
+}
+
+#contact .pills{
+    background-color: var(--lightgray);
 }
 
 #contact .pills:hover{
