@@ -14,6 +14,10 @@
     color: var(--lightgray);
 }
 
+.bg-lightgray{
+    background-color: var(--lightgray);
+}
+
 .green{
     color: var(--green);
 }
@@ -143,7 +147,7 @@ header h1{
     font-size: 50px;
 }
 
-#soontm{
+/* #soontm{
     background-color: var(--darkgreen);
     color: var(--lightgray);
 }
@@ -151,7 +155,7 @@ header h1{
 #soontm p, #soontm i{
     color: var(--lightgray);
     font-size: 40px;
-}
+} */
 
 #pilates{
     background-color: var(--darkgreen);
@@ -185,10 +189,17 @@ header h1{
 
 /* DRAINAGE */
 
-#building {
-    color: var(--darkgreen);
-    font-size: 50px;
+#drainage {
     min-height: calc(100% - 140px);
+}
+
+#drainage-header {
+    margin-top: 10%;
+}
+
+#drainage-body ul li{
+    list-style: url('../assets/leaf-list.png');
+    list-style-position: inside;
 }
 
 #building i{
