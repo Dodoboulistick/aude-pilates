@@ -153,16 +153,6 @@ header h1 {
     font-size: 50px;
 }
 
-/* #soontm{
-    background-color: var(--darkgreen);
-    color: var(--lightgray);
-}
-
-#soontm p, #soontm i{
-    color: var(--lightgray);
-    font-size: 40px;
-} */
-
 #pilates {
     background-color: var(--darkgreen);
 }
@@ -171,6 +161,18 @@ header h1 {
     color: var(--lightgray);
 }
 
+#reviews{
+    background-color: var(--darkgreen);
+}
+
+#reviews i{
+    color: var(--gold);
+    font-size: 23px;
+}
+
+#reviews p{
+    font-size: 21px;
+}
 
 /*  PILATES  */
 #pilates-body .pilates-body-wrapper {
